@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import './my-custom-element.js';
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <my-custom-element></my-custom-element>
       </header>
     </div>
   );
